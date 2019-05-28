@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk
 
 ENV MEMORY 512M
 
