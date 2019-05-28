@@ -3,7 +3,7 @@ FROM openjdk:8-jre
 ENV MEMORY 512M
 
 ARG MINECRAFT_VERSION=1.14.1
-ARG PAPER_VERSION=46
+ARG PAPER_VERSION=53
 
 ADD https://papermc.io/api/v1/paper/$MINECRAFT_VERSION/$PAPER_VERSION/download /paper.jar
 
